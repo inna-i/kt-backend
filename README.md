@@ -4,41 +4,41 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+KT backend is built using [Nest](https://github.com/nestjs/nest) framework.
 
-## Installation
+### Installation
 
 ```bash
-$ npm install
+$ yarn
 ```
 
-## Running the app
+### Running the app
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn start:dev
 
 # production mode
-$ npm run start:prod
+$ yarn start:prod
 ```
 
-## Test
+### Test
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
-$ npm run test:e2e
+$ yarn test:e2e
 
 # test coverage
-$ npm run test:cov
+$ yarn test:cov
 ```
 
-## Support
+### Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
@@ -57,6 +57,7 @@ $ docker-compose up
 
 ```
 and navigate to [localhost:8080/api](http://localhost:8080/api) to access th Swagger UI, where all available endpoints can be found.
+To play directly with MongoDB, use VS Code extention [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode). It allows you to connect to MongoDB and Atlas directly from your VS Code environment, navigate your databases and collections, inspect your schema and use playgrounds to prototype queries and aggregations.
 
 To stop the app, use Ctrl + C and the next command:
 ```bash
@@ -64,4 +65,5 @@ To stop the app, use Ctrl + C and the next command:
 $ docker-compose down
 
 ```
+
 
